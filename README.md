@@ -7,8 +7,8 @@ This is a fork of the original [DCC-EX/DccInspector-EX](https://github.com/DCC-E
 Major changes include or will include:
 
 - [x] Support for Arduino Nano Every
-- [] Support for LCD for standalone operation
-- [] Support for keys for standalone operation
+- [ ] Support for LCD for standalone operation
+- [ ] Support for keys for standalone operation
 
 They are / will be suggested as PRs to upstream, but as long as upstream are busy, I'm collecting them here.
 

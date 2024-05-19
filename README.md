@@ -1,5 +1,24 @@
 # DccInspector-EX
 
+## Fork information
+
+This is a fork of the original [DCC-EX/DccInspector-EX](https://github.com/DCC-EX/DCCInspector-EX).
+
+Major changes include or will include:
+
+- [x] Support for Arduino Nano Every
+- [] Support for LCD for standalone operation
+- [] Support for keys for standalone operation
+
+They are / will be suggested as PRs to upstream, but as long as upstream are busy, I'm collecting them here.
+
+I'm also tailoring this fork to run on my PCB [newHeiko/DCCAnalyze-PCB](https://github.com/newHeiko/DCCAnalyze-PCB).
+
+This requires the [MegaCoreX](https://github.com/MCUdude/MegaCoreX) to be installed in your Arduino IDE. To easily read the Arduino IDE settings, I also recommend the [IniIno plugin](https://github.com/tykefcz/IniIno). Otherwise, you can set the Arduino IDE settings manually:
+
+- Board: "Arduino Nano Every"
+- Registers Emulation: "None (ATMEGA4809)"
+
 ## Summary
 
 Diagnostic/sniffer program for DCC analysis, based on an Arduino or ESP32 target.
